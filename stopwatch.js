@@ -1,11 +1,7 @@
 let shr=document.getElementById("shr");
 let smin=document.getElementById("smin");
 let ssec=document.getElementById("ssec");
-let thr=document.getElementById("thr");
-let tmin=document.getElementById("tmin");
-let tsec=document.getElementById("tsec");
-let time=new Date();
-let info=document.getElementById("info");
+
 let hr=0;
 let min=0;
 let sec=0;
@@ -55,3 +51,4 @@ smin.innerText = String(min).padStart(2, "0")+":";
 ssec.innerText = String(sec).padStart(2, "0");
 
 })
+
